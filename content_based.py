@@ -65,5 +65,5 @@ def content_recommender(item_id, k, cosine_sim=cosine_sim, df=df, indices=indice
 
 if __name__ == "__main__":
     print('Making recommendations given an exisiting item...')
-    print(content_recommender(3, 10))
+    print(content_recommender(3, 5))
 
